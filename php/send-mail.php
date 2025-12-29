@@ -1,7 +1,7 @@
 <?php
 $vnaam = htmlspecialchars($_POST['vnaam']);
 $anaam = htmlspecialchars($_POST['anaam']);
-$email = htmlspecialchars($_POST['email']);
+$email = htmlspecialchars($_POST['iemal']);
 $onderwerp = htmlspecialchars($_POST['onderwerp']);
 $bericht = htmlspecialchars($_POST['bericht']);
 
