@@ -73,3 +73,50 @@ a.cta {
     border-color: #ffffff;
     color: #3b82f6;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #343434;
+    border-radius: 24px;
+    padding: 3rem;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+.formfield {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.naamrow {
+    display: flex;
+    gap: 1rem;
+}
+
+.naamrow .formfield {
+    width: 50%;
+}
+
+.formfield textarea {
+    resize: none;
+}
+
+#verzenden {
+    color: #3b82f6;
+    padding: 0.5rem 1rem;
+    border-radius: 24px;
+    border-color: #ffffff68;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #343434;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+#verzenden:hover {
+    border-color: #ffffff;
+}
