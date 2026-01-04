@@ -120,3 +120,9 @@ form {
 #verzenden:hover {
     border-color: #ffffff;
 }
+
+/* Navigation Styling */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #3b82f6;
+}
