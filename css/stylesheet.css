@@ -121,17 +121,22 @@ form {
     border-color: #ffffff;
 }
 
-/* Navigation Styling */
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     color: #3b82f6;
 }
 
-/* CV Opleiding Grid */
 .opleiding {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
     margin-bottom: 3rem;
     grid-row-gap: 1rem;
+}
+
+@media (min-width: 992px) {
+    .carousel {
+        max-width: 60%;
+        margin: 0 auto;
+    }
 }
