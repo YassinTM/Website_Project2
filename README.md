@@ -1,2 +1,2 @@
-# Website_Project1
-Project 1 voor vak Websites
+# Website_Project2
+Project 2 voor vak Websites
