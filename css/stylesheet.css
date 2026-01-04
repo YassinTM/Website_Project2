@@ -126,3 +126,12 @@ form {
 .navbar .navbar-nav .nav-link.active {
     color: #3b82f6;
 }
+
+/* CV Opleiding Grid */
+.opleiding {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    grid-row-gap: 1rem;
+}
