@@ -73,12 +73,19 @@
         <input type="email" name="email" id="email" required>
       </div>
       <div class="formfield">
-        <label for="onderwerp">Onderwerp</label>
-        <input type="text" name="onderwerp" id="onderwerp" required>
+        <label for="skills">Interesse in skills</label>
+        <select name="skills" id="skills" required>
+          <option value="" disabled selected>Kies een skill...</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="csharp">C#</option>
+          <option value="sql">SQL</option>
+        </select>
       </div>
 
       <div class="formfield">
-        <label for="bericht">Bericht</label>
+        <label for="bericht">Vraag</label>
         <textarea name="bericht" id="bericht" cols="30" rows="10" required></textarea>
       </div>
       <div class="formfield">
@@ -86,12 +93,53 @@
       </div>
     </form>
 
-    <div id="contactcard">
+    <div class="accordion accordion-flush" id="accordionContact" data-bs-theme="dark">
 
-      <h3>Neem contact met me op via email of telefoon!</h3>
-      <div class="linkwrapper">
-        <a href="tel:0411111111" class="cta">Telefoon</a>
-        <a href="mailto:notyassinmoumni@email.com" class="cta">Email</a>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Persoonlijke Gegevens
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionContact">
+          <div class="accordion-body">
+            <strong>Naam:</strong> Moumni<br>
+            <strong>Voornaam:</strong> Yassin<br>
+            <strong>Studierichting:</strong> Graduaat Programmeren
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Locatie
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionContact">
+          <div class="accordion-body">
+            <strong>Adres:</strong> Kleine Grotestraat 4<br>
+            <strong>Woonplaats:</strong> Wijnegem<br>
+            <strong>Land:</strong> België
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Contact & Sociaal
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionContact">
+          <div class="accordion-body">
+            <strong>E-mail:</strong> <a href="mailto:yassin.moumni@email.be">yassin.moumni@email.be</a><br>
+            <strong>Telefoon:</strong> <a href="tel:0411111111">+32 411 11 11 11</a><br>
+            <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yassinmoumni"
+              target="_blank">linkedin.com/in/yassinmoumni</a>
+          </div>
+        </div>
       </div>
     </div>
 

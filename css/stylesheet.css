@@ -140,3 +140,11 @@ form {
         margin: 0 auto;
     }
 }
+
+.accordion,
+.accordion-item,
+.accordion-button {
+    background-color: transparent;
+    color: #ffffff;
+    box-shadow: none;
+}
