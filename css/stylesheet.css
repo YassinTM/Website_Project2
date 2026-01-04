@@ -108,7 +108,22 @@ form {
     width: 50%;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+
+    .cv-header,
+    .opleiding,
+    h2 {
+        text-align: center;
+    }
+
+    .cv-header img {
+        margin-bottom: 2rem;
+    }
+
+    .cv-title-item {
+        grid-column: span 2;
+    }
+
     .naamrow {
         flex-direction: column;
     }
@@ -116,6 +131,8 @@ form {
     .naamrow .formfield {
         width: 100%;
     }
+
+
 }
 
 .formfield textarea {
