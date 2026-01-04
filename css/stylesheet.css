@@ -102,6 +102,16 @@ form {
     width: 50%;
 }
 
+@media (max-width: 576px) {
+    .naamrow {
+        flex-direction: column;
+    }
+
+    .naamrow .formfield {
+        width: 100%;
+    }
+}
+
 .formfield textarea {
     resize: none;
 }
