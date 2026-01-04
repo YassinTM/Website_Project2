@@ -20,6 +20,12 @@ h3 {
     font-family: "IBM Plex Serif", serif;
 }
 
+h1 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
 .linkwrapper {
     display: flex;
     justify-content: center;
@@ -140,9 +146,10 @@ form {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     grid-row-gap: 1rem;
 }
+
 
 @media (min-width: 992px) {
     .carousel {
